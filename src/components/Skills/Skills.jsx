@@ -1,3 +1,4 @@
+// GitHub: https://github.com/nuthan1805
 import React from 'react';
 import SkillCard from './SkillCard';
 
@@ -12,9 +13,9 @@ const Skills = () => {
   ];
 
   const backendSkills = [
-    { icon: 'fab fa-node-js', name: 'Node.js', level: '80%' },
-    { icon: 'fab fa-python', name: 'Python', level: '75%' },
     { icon: 'fab fa-java', name: 'Java', level: '70%' },
+    { icon: 'fab fa-node-js', name: 'Node.js', level: '80%' },
+    { icon: 'fas fa-feather', name: 'FeathersJS', level: '75%' },
     { icon: 'fas fa-server', name: 'Express.js', level: '80%' },
     { icon: 'fas fa-code', name: 'REST API', level: '85%' },
     { icon: 'fas fa-shield-alt', name: 'Authentication', level: '75%' }
@@ -39,7 +40,7 @@ const Skills = () => {
           <span className="section-subtitle">What I Know</span>
           <h2 className="section-title">Skills & Technologies</h2>
         </div>
-        
+
         <div className="skills-container">
           {/* Frontend Development */}
           <div className="skills-category">
@@ -49,8 +50,8 @@ const Skills = () => {
             </div>
             <div className="skills-grid">
               {frontendSkills.map((skill, index) => (
-                <SkillCard 
-                  key={`${skill.name}-${index}`} 
+                <SkillCard
+                  key={`${skill.name}-${index}`}
                   icon={skill.icon}
                   name={skill.name}
                   level={skill.level}
@@ -67,7 +68,7 @@ const Skills = () => {
             </div>
             <div className="skills-grid">
               {backendSkills.map((skill, index) => (
-                <SkillCard 
+                <SkillCard
                   key={`${skill.name}-${index}`}
                   icon={skill.icon}
                   name={skill.name}
@@ -85,7 +86,7 @@ const Skills = () => {
             </div>
             <div className="skills-grid">
               {databaseTools.map((skill, index) => (
-                <SkillCard 
+                <SkillCard
                   key={`${skill.name}-${index}`}
                   icon={skill.icon}
                   name={skill.name}

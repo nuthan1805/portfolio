@@ -1,3 +1,4 @@
+// GitHub: https://github.com/nuthan1805
 import React from 'react';
 import { useScrollAnimation } from '../../hooks';
 
@@ -21,7 +22,7 @@ const About = () => {
               <div className="frame-decoration"></div>
             </div>
             <div className="experience-badge">
-              <span className="exp-number">2+</span>
+              <span className="exp-number">3+</span>
               <span className="exp-text">Years of<br/>Experience</span>
             </div>
           </div>
@@ -44,21 +45,21 @@ const About = () => {
                 <i className="fas fa-graduation-cap"></i>
                 <div>
                   <span className="info-label">Education</span>
-                  <span className="info-value">Computer Science</span>
+                  <span className="info-value">Electrical and Electronics Engineering</span>
                 </div>
               </div>
               <div className="info-item">
                 <i className="fas fa-map-marker-alt"></i>
                 <div>
                   <span className="info-label">Location</span>
-                  <span className="info-value">India</span>
+                  <span className="info-value">Bengaluru</span>
                 </div>
               </div>
               <div className="info-item">
                 <i className="fas fa-briefcase"></i>
                 <div>
                   <span className="info-label">Status</span>
-                  <span className="info-value">Available for Work</span>
+                  <span className="info-value">Open to Opportunities</span>
                 </div>
               </div>
             </div>

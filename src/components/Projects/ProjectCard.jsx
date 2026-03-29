@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, tags, category }) => {
+const ProjectCard = ({ title, description, tags = [], category, link }) => {
   return (
     <div className="project-card" data-category={category}>
       <div className="project-image">
@@ -9,10 +9,16 @@ const ProjectCard = ({ title, description, tags, category }) => {
         </div>
         <div className="project-overlay">
           <div className="project-links">
-            <a href="#" className="project-link" aria-label="View project">
+            <a
+              href={link || '#'}
+              className="project-link"
+              aria-label="View project"
+              target={link ? '_blank' : undefined}
+              rel={link ? 'noreferrer' : undefined}
+            >
               <i className="fas fa-external-link-alt"></i>
             </a>
-            <a href="#" className="project-link" aria-label="View code">
+            <a href="https://github.com/nuthan1805" className="project-link" aria-label="View code">
               <i className="fab fa-github"></i>
             </a>
           </div>

@@ -1,3 +1,7 @@
+/* Add spacing between 'A' and the dynamic title in Hero */
+.title-static {
+    margin-right: 0.5rem;
+}
 /* ========================================
    NUTHAN S - PORTFOLIO STYLES
    Professional, Creative, Clean Design

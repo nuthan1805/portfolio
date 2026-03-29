@@ -1,3 +1,4 @@
+// GitHub: https://github.com/nuthan1805
 import React from 'react';
 import TimelineItem from './TimelineItem';
 
@@ -7,26 +8,26 @@ const Experience = () => {
       id: 1,
       type: 'work',
       title: 'Full Stack Developer',
-      company: 'Tech Solutions Inc.',
+      company: 'Techmahindra Comviva',
       date: '2024 - Present',
       description: 'Leading development of enterprise web applications using modern technologies. Implementing scalable solutions and mentoring junior developers.',
-      tags: ['React', 'Node.js', 'AWS', 'MongoDB']
+      tags: ['React', 'Node.js', 'AWS', 'PostgreSQL']
     },
     {
       id: 2,
       type: 'work',
       title: 'Frontend Developer',
-      company: 'Digital Agency Co.',
-      date: '2023 - 2024',
+      company: 'Techmahindra Comviva',
+      date: '2022 - 2024',
       description: 'Developed responsive web applications and collaborated with design team to create engaging user experiences.',
-      tags: ['React', 'TypeScript', 'Tailwind CSS']
+      tags: ['React', 'TypeScript', 'Bootstrap']
     },
     {
       id: 3,
       type: 'education',
-      title: 'Bachelor of Computer Science',
-      company: 'University of Technology',
-      date: '2019 - 2023',
+      title: 'Bachelor of Electrical and Electronics Engineering',
+      company: 'Siddaganga Institute of Technology',
+      date: '2018 - 2022',
       description: 'Graduated with honors. Focused on software engineering, algorithms, and web development.',
       tags: null
     }

@@ -92,7 +92,7 @@ portfolio/
 
 ```javascript
 <a href="https://github.com/YOUR_USERNAME">
-<a href="https://linkedin.com/in/YOUR_PROFILE">
+<a href="https://www.linkedin.com/in/nuthan-s-51920a213/">
 ```
 
 #### 3. About Me Text
